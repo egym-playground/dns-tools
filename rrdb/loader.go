@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/egymgmbh/dns-tools/lib"
+	"bitbucket.org/egym-com/dns-tools/lib"
 
 	yaml "gopkg.in/yaml.v2"
 )

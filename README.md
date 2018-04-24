@@ -1,8 +1,7 @@
 # dns-tools
 
-[![Build Status](https://travis-ci.org/egymgmbh/dns-tools.svg?branch=master)](https://travis-ci.org/egymgmbh/dns-tools)
-[![codecov](https://codecov.io/gh/egymgmbh/dns-tools/branch/master/graph/badge.svg)](https://codecov.io/gh/egymgmbh/dns-tools)
-[![Go Report Card](https://goreportcard.com/badge/github.com/egymgmbh/dns-tools)](https://goreportcard.com/report/github.com/egymgmbh/dns-tools)
+![eGym Core Team](https://img.shields.io/badge/eGym-Core%20Team-orange.svg)
+[![Go Report Card](https://goreportcard.com/badge/bitbucket.org/egym-com/dns-tools)](https://goreportcard.com/report/bitbucket.org/egym-com/dns-tools)
 
 The dns-tools parse resource record and zone information from YAML-formatted
 plain text files and perform various checks and actions on them. They use the

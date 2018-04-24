@@ -9,9 +9,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/egymgmbh/dns-tools/gcp"
-	influx "github.com/egymgmbh/dns-tools/influx"
-	"github.com/egymgmbh/dns-tools/lib"
+	"bitbucket.org/egym-com/dns-tools/gcp"
+	influx "bitbucket.org/egym-com/dns-tools/influx"
+	"bitbucket.org/egym-com/dns-tools/lib"
 	metrics "github.com/rcrowley/go-metrics"
 	influxdb "github.com/vrischmann/go-metrics-influxdb"
 )

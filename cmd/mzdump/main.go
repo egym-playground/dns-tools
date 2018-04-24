@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/egymgmbh/dns-tools/gcp"
+	"bitbucket.org/egym-com/dns-tools/gcp"
 )
 
 const defaultTemplate = `{{ range .ManagedZones }}

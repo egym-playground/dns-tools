@@ -9,8 +9,5 @@
 # custom configuration
 /config.yml
 
-# vendor files
-/vendor/*
-
 # zone information
 /zonedata/*

@@ -6,8 +6,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/egymgmbh/dns-tools/config"
-	"github.com/egymgmbh/dns-tools/rrdb"
+	"bitbucket.org/egym-com/dns-tools/config"
+	"bitbucket.org/egym-com/dns-tools/rrdb"
 )
 
 func main() {
