@@ -99,7 +99,7 @@ func main() {
 		totalCreated++
 	}
 
-	log.SetPrefix("summary")
+	log.SetPrefix("summary ")
 	if !*quiet {
 		log.Printf("%v managed zone create", totalCreated)
 	}
