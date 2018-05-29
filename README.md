@@ -2,6 +2,7 @@
 
 ![eGym SRE](https://img.shields.io/badge/eGym-SRE-orange.svg)
 [![Go Report Card](https://goreportcard.com/badge/bitbucket.org/egym-com/dns-tools)](https://goreportcard.com/report/bitbucket.org/egym-com/dns-tools)
+[![codecov](https://codecov.io/bb/egym-com/dns-tools/branch/master/graph/badge.svg)](https://codecov.io/bb/egym-com/dns-tools)
 
 The dns-tools parse resource record and zone information from YAML-formatted
 plain text files and perform various checks and actions on them. They use the
