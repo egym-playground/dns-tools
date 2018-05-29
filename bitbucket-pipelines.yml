@@ -20,7 +20,8 @@ pipelines:
       - golint   -set_exit_status $(go list ./... | grep -v /vendor/)
       - go vet   -v               $(go list ./... | grep -v /vendor/)
       - go build -v               $(go list ./... | grep -v /vendor/)
-      - echo "" > coverage.txt
+      - |
+        echo "" > coverage.txt
         for d in $(go list ./... | grep -v /vendor/); do
             go test -v -race -coverprofile=profile.out -covermode=atomic $d
             if [ -f profile.out ]; then
