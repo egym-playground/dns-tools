@@ -1,0 +1,33 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: '@'
+        addresses:
+          literals:
+            - 192.168.0.1
+      - name: nsserver
+        delegation:
+          nameservers:
+          - ns1.bar.example.org.
+          - ns2.bar.example.org.
+      - name: text
+        texts:
+          data:
+          - I am a text
+      # Valid CNAMEs
+      - name: forward-to-address
+        forwarding:
+          target: example.com.
+      - name: forward-to-cname
+        forwarding:
+          target: forward-to-cname.example.com.
+      - name: forward-to-nameserver
+        forwarding:
+          target: nsserver.example.com.
+      - name: forward-to-text
+        forwarding:
+          target: text.example.com.
+      - name: forward-to-external
+        forwarding:
+          target: external.another.com.

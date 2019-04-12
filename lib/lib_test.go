@@ -23,6 +23,10 @@ func TestLookup(t *testing.T) {
 			fqdn:  "-invalid.dns-tools.egym.coffee.",
 			rtype: "AAAA",
 		},
+		{
+			fqdn:  "texts.dns-tools.egym.coffee.",
+			rtype: "TXT",
+		},
 	}
 	validLookups := []struct {
 		fqdn  string
@@ -46,14 +50,6 @@ func TestLookup(t *testing.T) {
 				"10 mail1.example.com.",
 				"666 mail2.example.com.",
 				"500 mail3.example.com.",
-			},
-		},
-		{
-			fqdn:  "texts.dns-tools.egym.coffee.",
-			rtype: "TXT",
-			out: []string{
-				"Life tasted so good, dude!",
-				"All watched over by machines of love and grace...",
 			},
 		},
 		{

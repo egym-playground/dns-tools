@@ -1,0 +1,7 @@
+---
+config:
+  zonedatadirectory: testdata/fail/zonedata/
+  defaults:
+    ttl: 300
+  managedzones:
+  - fqdn: example.com.

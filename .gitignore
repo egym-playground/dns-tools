@@ -11,3 +11,6 @@
 
 # zone information
 /zonedata/*
+
+# IDE files
+.idea
