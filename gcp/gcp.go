@@ -12,7 +12,7 @@ import (
 	"golang.org/x/oauth2/google"
 	clouddns "google.golang.org/api/dns/v1"
 
-	"bitbucket.org/egym-com/dns-tools/rrdb"
+	"github.com/egymgmbh/dns-tools/rrdb"
 )
 
 // GetDNSService creates a CloudDNS API service from a service account file

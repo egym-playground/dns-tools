@@ -9,8 +9,8 @@ import (
 	"log"
 	"strings"
 
-	"bitbucket.org/egym-com/dns-tools/config"
-	"bitbucket.org/egym-com/dns-tools/rrdb"
+	"github.com/egymgmbh/dns-tools/config"
+	"github.com/egymgmbh/dns-tools/rrdb"
 )
 
 func main() {

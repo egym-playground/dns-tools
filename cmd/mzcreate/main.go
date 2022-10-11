@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/egym-com/dns-tools/config"
-	"bitbucket.org/egym-com/dns-tools/gcp"
+	"github.com/egymgmbh/dns-tools/config"
+	"github.com/egymgmbh/dns-tools/gcp"
 	"github.com/fatih/color"
 	clouddns "google.golang.org/api/dns/v1"
 )

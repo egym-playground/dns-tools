@@ -4,7 +4,7 @@ import (
 	"path"
 	"testing"
 
-	"bitbucket.org/egym-com/dns-tools/rrdb"
+	"github.com/egymgmbh/dns-tools/rrdb"
 	"github.com/stretchr/testify/assert"
 
 	clouddns "google.golang.org/api/dns/v1"

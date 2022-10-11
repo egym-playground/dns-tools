@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"bitbucket.org/egym-com/dns-tools/lib"
+	"github.com/egymgmbh/dns-tools/lib"
 )
 
 // RRDB holds a resource record database
