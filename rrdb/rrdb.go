@@ -374,8 +374,8 @@ func (db *RRDB) AddTXT(fqdn string, ttl int, rdata string) error {
 	if len(rdata) == 0 {
 		return fmt.Errorf("rdata: empty")
 	}
-	// check maxlength
-	if len(rdata) > 255 {
+	// check maxlength https://www.rfc-editor.org/rfc/rfc4408#section-3.1.3
+	if len(rdata) > 3600 {
 		return fmt.Errorf("rdata: too large")
 	}
 	// duplicate detection
